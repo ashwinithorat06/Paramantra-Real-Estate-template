@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.toggler{
+    color: #fd7e14;
+    border:2px solid #fd7e14;
+}
+.toggler:hover{
+    color: #14cefd;
+    border:2px solid #14cefd;
+}
+.fix-ht{
+    max-height: 650px;
+}
+.brand{
+    color: darkorange;
+    padding-right: 20px;
+}
+.background{
+    background: rgba(0,0,0,0.3) url("./images/pexels-vincent-rivaud-2227774.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    color: white;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.firstdiv{
+    height: 300px;
+    background: rgba(0,0,0,0.6) url("./images/logo2.jfif");
+    background-size:cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    color: white; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+.firstdiv>h2{
+    border: 2px solid white;
+    word-spacing: 5px;
+}
+
+.leftSec>img{
+    width: 100%;
+    height: 480px;
+}
+.rightSec,.form-bg{
+    height: 480px;
+    background: url("./images/bg1.jpeg");
+    background-size: cover;
+}
+.rightSec>h3{
+    border-bottom: 2px solid #fd7e14;
+    padding-bottom: 15px;
+}
+.rightSec>p{
+    line-height: 35px;
+}
+.full-img{
+    background: rgba(0,0,0,0.4) url("./images/pexels-photo-1638341.jpeg");
+    background-size: cover;
+    height: 300px;
+    background-blend-mode: darken;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    height: 80px;
+    align-items: center;
+    justify-content: center ;
+}
+.img-ht{
+    height: 247px;
+}
+.card-border{
+    border: 2px solid rgb(179, 178, 178);
+}
+.form-bg{
+    height: auto;
+}
+.form-style{
+    width: 55%;
+    margin: 20px auto;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 25px;
+}
+nav a:hover{
+    background-color: #fd7e14;
+    border:2px solid white;
+    color: white;
+    transition: all 1s ease;
+}
+@media screen and (max-width:870px){
+    .firstdiv{
+    font-size: 1rem;
+    }
+    .amenity{
+        height: auto;
+    }
+}
+@media screen and (max-width:485px){
+    .rightSec{
+    height: auto;
+    }
+    .full-img>h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1320px){
+    .form-style{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1040px){
+    .form-style{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:670px){
+    .form-style{
+        width: 95%;
+    }
+    .v-class{
+        display: none;
+    }
+}
